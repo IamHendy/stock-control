@@ -19,18 +19,18 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 -- creatinga a user for the database
-CREATE USER 'test'@'localhost' IDENTIFIED BY 'password';
-ALTER USER 'test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
-GRANT ALL PRIVILEGES ON *.* TO 'test'@'localhost' WITH GRANT OPTION;
+/*
 
-FLUSH privileges;*/
+--ALTER USER 'test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+--GRANT ALL PRIVILEGES ON *.* TO 'test'@'localhost' WITH GRANT OPTION;
+
+--FLUSH privileges;*/
 
 --
 -- Database: `stocks`
 --
-CREATE DATABASE stocks;
+/*CREATE DATABASE stocks;*/
 use stocks;
-
 -- --------------------------------------------------------
 
 --

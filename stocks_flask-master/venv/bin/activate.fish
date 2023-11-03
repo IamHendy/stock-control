@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/sagebeme/Desktop/code/inventory_management_system_flask-master/venv"
+set -gx VIRTUAL_ENV "/home/puchhendy/Desktop/Coding/stock-control/stocks_flask-master/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

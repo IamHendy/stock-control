@@ -1,4 +1,4 @@
-#!/home/sagebeme/Desktop/code/inventory_management_system_flask-master/venv/bin/python3
+#!/home/puchhendy/Desktop/Coding/stock-control/stocks_flask-master/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
