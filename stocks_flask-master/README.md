@@ -1,30 +1,43 @@
-# inventory_management_system_flask
-An inventory management web app using flask framework where user can add, delete update products, locations and track product movements.
-  
+# inventory_management
 
-1. Home
-![home](take screenshots weka link hapa)
+**Stock Web app Documentation Manual**
 
-2. Login
-![login](take screenshots weka link hapa)
+**1. Introduction**
+   - This web application is built using Flaskframework, HTML templates and mySQL
+   - It allows users to sign up, log in, create products, delete products, and update product details in a virtual store.
 
-3. Products
-![products](take screenshots weka link hapa)
+**2. Prerequisites**
+   - Python, Flask, and MySQL should be installed installed.
+   
+**3. Installation**
+   - Clone the application's code repository.
+   - Install the required Python packages:
+     ```
+     pip install Flask flask-mysql
+     ```
 
-4. Locations
-![locations](take screenshots weka link hapa)
+     ```
 
-5. Product Movements
-![pm_new](take screenshots weka link hapa)
+**4. Running the Application**
+   - Run the application with the following command:
+     ```
+     python app.py
+     ```
+   - Access the web application in your browser at `http://localhost:5000`.
 
-6. Edit Products
-![edit_product](take screenshots weka link hapa)
+**5. Functionality**
+   - **User Authentication**
+     - **Sign Up**:
+       - Users can create an account by providing a username and password.
+     - **Log In**:
+       - Existing users can log in with their credentials.
 
-8. Add Product Movements
-![pm-add](take screenshots weka link hapa)
-
-9. Reports according to location
-![report-new-1](take screenshots weka link hapa)
-
-![report-new-2](take screenshots weka link hapa)
+   - **Product Management**
+     - **Create Product**:
+       - Logged-in users can create new products by providing product details.
+     - **Delete Product**:
+       - Users can delete products by clicking on the "Delete" button.
+     - **Update Product Details**:
+       - Users can update product details by clicking on the "Edit" button and making changes.
+       - Lastly, users can also track the location of their products
 
